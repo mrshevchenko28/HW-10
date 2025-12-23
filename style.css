@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.container {
+    width: 1920px;
+    display: flow-root;
+}
+
+.top {
+    height: 700px;
+    padding-left: 399px;
+    background-color: #EEEFF1;
+}
+
+.top_pages {
+    width: 565px;
+    height: 16px;
+    margin-top: 79px;
+    display: flex;
+    padding: 0px;
+}
+
+.box {
+    height: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+  
+}
+
+.box1 {
+    width: 101px;
+    color: #34547A;
+}
+
+.box2 {
+    width: 100px;
+    margin-right: 12px;
+}
+.box3 {
+    width: 74px;
+    margin-right: 48px;
+}
+
+.box4 {
+    width: 86px;
+    margin-right: 45px;
+}
+
+.box5 {
+    width: 99px;
+    letter-spacing: 0.1em;
+}
+
+.text_info {
+    width: 541px;
+    height: 45px;
+    margin-top: 162px;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.paragraph_1 {
+    width: 540px;
+    height: 67px;
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.44;
+    letter-spacing: 0;
+    text-align: left;
+    color: #727272;
+}
+
+.button_top {
+    width: 225px;
+    height: 65px;
+    margin-top: 65px;
+    background-color: #34547A;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.about_me {
+    width: 403px;
+    height: 30px;
+    margin-left: 68px;
+    font-weight: 500;  
+    font-size: 32px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.paragraph_2 {
+    width: 540px;
+    height: 67px;
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.44;
+    letter-spacing: 0;
+    text-align: center;
+    color: #727272;
+}
+
+.about {
+    height: 359px;
+    background-color: #f9f9f9;
+}
+
+.second_pages {
+    width: 540px;
+    height: 147px;
+    margin-top: 112px;
+    margin-left: 690px;
+}
+
+.projects {
+    background-color: #34547A;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.project_text {
+    width: 71px;
+    height: 44px;
+    margin: 3px 0 3px 20px;
+}
+
+.project {
+    width: 141px;
+    height: 50px;
+    display: flex;
+}
+.group_1 {
+    margin-left: 409px;
+}
+
+.group_2 {
+    margin-left: 49px;
+}
+
+.fourty_plus {
+    width: 36px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.paragraph_3 {
+    width: 71px;
+    height: 15px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.ruller {
+    width: 50px;
+    height: 50px;
+}
+
+.video {
+    height: 1004px;
+    background-color: #EEEFF1;
+}
+
+.video_text {
+    width: 540px;
+    height: 147px;
+    margin-top: 100px;
+    margin-left: 690px;
+}
+
+.video_title {
+    width: 403px;
+    height: 30px;
+    margin-left: 68px;
+    font-weight: 500;  
+    font-size: 32px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.paragraph_4 {
+    width: 540px;
+    height: 67px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.44;
+    letter-spacing: 0;
+    text-align: center;
+    color: #727272;
+}
+
+.video_rectangle {
+    position: relative;
+    width: 1100px;
+    height: 600px;
+    margin-top: 57px;
+    margin-left: 405px;
+}
+
+.image_video {
+    width: 1100px;
+    height: 600px;
+}
+
+.play_button {
+    width: 100px;       
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    height: 151px;
+    background-color: #34547A;
+    padding: 50px 0 50px 406px ;
+}
+
+.name_surname {
+    width: 219px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.paragraph_5 {
+    width: 193px;
+    height: 12px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+@media (min-width: 1920px) {
+    .container {width: 100%;}
+}
+
+@media (max-width: 1024px) {
+    .container {width: 1024px;}
+    .top {padding-left: 99px;}
+    h1 {font-size: 40px;}
+    .top_pages {width: auto; height: auto;display: flex; gap: 10px;}
+    .box1 {width: 70px ;margin: 0;}
+    .box2 {width: 70px;margin: 0;}
+    .box3 {margin: 0;}
+    .box4 {margin: 0;}
+    .box {font-size: 14px;}
+    .paragraph_1 {width: 400px; height: 60px ;font-size: 14px;}
+    .button_top {width: 200px; height: 60px; font-size: 14px;}
+    .about_me {margin: 0; font-size: 28px;}
+    .paragraph_2 {width: 400px; height: auto; font-size: 14px;}
+    .second_pages {margin: 112px 0 0 100px;}
+    .projects {height: 200px; display: flex; gap: 10px;}
+    .group_1 {margin-left: 75px;}
+    .group_2 {margin: 0;}
+    .fourty_plus {font-size: 18px;}
+    .paragraph_3 {font-size: 14px;}
+    .video {height: 800px;}
+    .video_text {margin: 112px 0 0 100px;}
+    .video_title {margin: 0; font-size: 28px;}
+    .paragraph_4 {width: 400px; height: auto; font-size: 14px;}
+    .video_rectangle {width: 700px; height: 400px; margin: 57px 0 0 50px;}
+    .image_video {width: 700px; height: 400px;}
+    .play_button {width: 80px; height: 80px;}
+    .footer {padding: 50px 0 50px 200px ;}
+    .name_surname {font-size: 18px;}
+    .paragraph_5 {font-size: 12px; margin-top: 15px;}
+}
+
+@media (max-width: 768px) {
+    .container {width: 768px;}
+    .top {height: 600px ;padding-left: 49px;}
+    h1 {font-size: 35px; margin-top: 0;}
+    .top_pages {width: 100px; height: auto; gap: 10px; display: flex; flex-wrap: wrap; margin: 20px 0 100px 0;}
+    .box {font-size: 12px;}
+    .text_info {margin-top: 0;}
+    .paragraph_1 {width: 300px; height: 67px ;font-size: 12px;}
+    .button_top {width: 150px; height: 50px; font-size: 12px;}
+    .about_me {width: 250px; height: auto; margin: 0; font-size: 24px;}
+    .paragraph_2 {width: 250px; height: auto; margin-top: 40px; font-size: 12px;}
+    .second_pages {margin: 112px 0 0 49px;}
+    .projects {height: 300px; display: flex; flex-wrap: wrap; gap: 50px; justify-content: center;}
+    .group_1 {margin-left: 0px;}
+    .group_2 {margin: 0;}
+    .fourty_plus {font-size: 18px;}
+    .paragraph_3 {font-size: 12px; margin: 0;}
+    .video {height: 700px;}
+    .video_text {margin: 112px 0 0 49px;}
+    .video_title {width: 250px; height: auto; margin: 0; font-size: 24px;}
+    .paragraph_4 {width: 250px; height: auto; margin-top: 40px; font-size: 12px;}
+    .video_rectangle {width: 500px; height: 300px; margin: 57px 0 0 50px;}
+    .image_video {width: 500px; height: 300px;}
+    .play_button {width: 70px; height: 70px;}
+    .footer {height:100px; padding: 25px 0 25px 50px ;}
+    .name_surname {font-size: 16px;}
+    .paragraph_5 {font-size: 11px; margin-top: 10px;}
+}
+
+@media (max-width: 375px) {
+    .container {width: 375px; overflow: hidden;}
+    .top {height: 500px ;padding-left: 10px;}
+    h1 {font-size: 25px; margin-top: 0;}
+    .top_pages {width: 100px; height: auto; gap: 5px; display: flex; flex-wrap: wrap; margin: 20px 0 50px 0;}
+    .box {font-size: 10px;}
+    .text_info {margin-top: 0;}
+    .paragraph_1 {width: 200px; height: auto ;font-size: 10px;}
+    .button_top {width: 125px; height: 50px; font-size: 10px;}
+    .about {height: 200px;}
+    .about_me {width: 100px; height: auto; margin-left: 50px; font-size: 20px;}
+    .paragraph_2 {width: 200px; height: auto; margin-top: 20px; font-size: 10px;}
+    .second_pages {margin: 50px 0 0 10px;}
+    .projects {height: 300px; display: flex; flex-direction: column; align-items: start;}
+    .group_1 {width: 40px; height: 40px; margin-left: 0px;}
+    .group_2 {width: 40px; height: 40px; margin: 0;}
+    .fourty_plus {font-size: 16px;}
+    .paragraph_3 {font-size: 10px;}
+    .ruller {width: 40px; height: 40px;}
+    .video {height: 350px;}
+    .video_text {margin: 50px 0 0 10px;}
+    .video_title {width: 200px; height: auto; margin-left: 10px; font-size: 20px;}
+    .paragraph_4 {width: 200px; height: auto; margin-top: 20px; font-size: 10px;}
+    .video_rectangle {width: 250px; height: 100px; margin: 10px 0 0 10px;}
+    .image_video {width: 250px; height: 100px;}
+    .play_button {width: 30px; height: 30px;}
+    .footer {height:100px; padding: 25px 0 25px 10px ;}
+    .name_surname {font-size: 14px;}
+    .paragraph_5 {font-size: 10px; margin-top: 5px;}
+}
