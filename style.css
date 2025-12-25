@@ -275,11 +275,11 @@ h1 {
 }
 
 @media (min-width: 1920px) {
-    .container {width: 100%;}
+    .container {width: 100vw;}
 }
 
 @media (max-width: 1024px) {
-    .container {width: 1024px;}
+    .container {width: 100vw; overflow: hidden;}
     .top {padding-left: 99px;}
     h1 {font-size: 40px;}
     .top_pages {width: auto; height: auto;display: flex; gap: 10px;}
@@ -293,25 +293,25 @@ h1 {
     .about_me {margin: 0; font-size: 28px;}
     .paragraph_2 {width: 400px; height: auto; font-size: 14px;}
     .second_pages {margin: 112px 0 0 100px;}
-    .projects {height: 200px; display: flex; gap: 10px;}
-    .group_1 {margin-left: 75px;}
-    .group_2 {margin: 0;}
-    .fourty_plus {font-size: 18px;}
-    .paragraph_3 {font-size: 14px;}
-    .video {height: 800px;}
+    .projects {width: 100vw; height: 200px; display: flex; gap: 1vw;}
+    .group_1 {width: 15vw; margin-left: 1vw;}
+    .group_2 {width: 15vw; margin: 0;}
+    .fourty_plus {font-size: 2vw;}
+    .paragraph_3 {font-size: 1vw; margin-top: 1vw;}
+    .video {height: 100vw;}
     .video_text {margin: 112px 0 0 100px;}
     .video_title {margin: 0; font-size: 28px;}
     .paragraph_4 {width: 400px; height: auto; font-size: 14px;}
-    .video_rectangle {width: 700px; height: 400px; margin: 57px 0 0 50px;}
-    .image_video {width: 700px; height: 400px;}
-    .play_button {width: 80px; height: 80px;}
+    .video_rectangle {width: 70vw; height: 40vw; margin: 57px 0 0 50px;}
+    .image_video {width: 70vw; height: 40vw;}
+    .play_button {width: 7vw; height: 7vw;}
     .footer {padding: 50px 0 50px 200px ;}
     .name_surname {font-size: 18px;}
     .paragraph_5 {font-size: 12px; margin-top: 15px;}
 }
 
 @media (max-width: 768px) {
-    .container {width: 768px;}
+    .container {width: 100vw; overflow: hidden;}
     .top {height: 600px ;padding-left: 49px;}
     h1 {font-size: 35px; margin-top: 0;}
     .top_pages {width: 100px; height: auto; gap: 10px; display: flex; flex-wrap: wrap; margin: 20px 0 100px 0;}
@@ -322,25 +322,25 @@ h1 {
     .about_me {width: 250px; height: auto; margin: 0; font-size: 24px;}
     .paragraph_2 {width: 250px; height: auto; margin-top: 40px; font-size: 12px;}
     .second_pages {margin: 112px 0 0 49px;}
-    .projects {height: 300px; display: flex; flex-wrap: wrap; gap: 50px; justify-content: center;}
-    .group_1 {margin-left: 0px;}
-    .group_2 {margin: 0;}
-    .fourty_plus {font-size: 18px;}
-    .paragraph_3 {font-size: 12px; margin: 0;}
+    .projects {width: 100vw; height: 250px; display: flex; flex-wrap: wrap; gap: 15vw;}
+    .group_1 {width: 15vw; margin: 0;}
+    .group_2 {width: 15vw; margin: 0;}
+    .fourty_plus {font-size: 3vw;}
+    .paragraph_3 {font-size: 2vw; margin-top: 1vw;}
     .video {height: 700px;}
     .video_text {margin: 112px 0 0 49px;}
     .video_title {width: 250px; height: auto; margin: 0; font-size: 24px;}
     .paragraph_4 {width: 250px; height: auto; margin-top: 40px; font-size: 12px;}
-    .video_rectangle {width: 500px; height: 300px; margin: 57px 0 0 50px;}
-    .image_video {width: 500px; height: 300px;}
-    .play_button {width: 70px; height: 70px;}
+    .video_rectangle {width: 70vw; height: 40vw; margin: 57px 0 0 50px;}
+    .image_video {width: 70vw; height: 40vw;}
+    .play_button {width: 7vw; height: 7vw;}
     .footer {height:100px; padding: 25px 0 25px 50px ;}
     .name_surname {font-size: 16px;}
     .paragraph_5 {font-size: 11px; margin-top: 10px;}
 }
 
 @media (max-width: 375px) {
-    .container {width: 375px; overflow: hidden;}
+    .container {width: 100vw; overflow: hidden;}
     .top {height: 500px ;padding-left: 10px;}
     h1 {font-size: 25px; margin-top: 0;}
     .top_pages {width: 100px; height: auto; gap: 5px; display: flex; flex-wrap: wrap; margin: 20px 0 50px 0;}
@@ -352,19 +352,19 @@ h1 {
     .about_me {width: 100px; height: auto; margin-left: 50px; font-size: 20px;}
     .paragraph_2 {width: 200px; height: auto; margin-top: 20px; font-size: 10px;}
     .second_pages {margin: 50px 0 0 10px;}
-    .projects {height: 300px; display: flex; flex-direction: column; align-items: start;}
-    .group_1 {width: 40px; height: 40px; margin-left: 0px;}
-    .group_2 {width: 40px; height: 40px; margin: 0;}
-    .fourty_plus {font-size: 16px;}
-    .paragraph_3 {font-size: 10px;}
-    .ruller {width: 40px; height: 40px;}
-    .video {height: 350px;}
+    .projects {width: 100vw; height: 300px; display: flex; flex-direction: column; justify-content: center; align-items: start;}
+    .group_1 {width: 15vw; margin-left: 1vw;}
+    .group_2 {width: 15vw; margin: 0;}
+    .fourty_plus {font-size: 5vw;}
+    .paragraph_3 {font-size: 3vw; margin-top: 2vw;}
+    .ruller {width: 15vw; height: 15vw;}
+    .video {height: 400px;}
     .video_text {margin: 50px 0 0 10px;}
     .video_title {width: 200px; height: auto; margin-left: 10px; font-size: 20px;}
     .paragraph_4 {width: 200px; height: auto; margin-top: 20px; font-size: 10px;}
-    .video_rectangle {width: 250px; height: 100px; margin: 10px 0 0 10px;}
-    .image_video {width: 250px; height: 100px;}
-    .play_button {width: 30px; height: 30px;}
+    .video_rectangle {width: 70vw; height: 40vw; margin: 10px 0 0 10px;}
+    .image_video {width: 70vw; height: 40vw;}
+    .play_button {width: 7vw; height: 7vw;}
     .footer {height:100px; padding: 25px 0 25px 10px ;}
     .name_surname {font-size: 14px;}
     .paragraph_5 {font-size: 10px; margin-top: 5px;}
